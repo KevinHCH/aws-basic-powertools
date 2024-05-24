@@ -1,14 +1,10 @@
-# Welcome to your CDK TypeScript project
+# AWS-BASIC-POWERTOOLS
+This repo is an example how you can implement the basic configuration of aws lambda powertools package
 
-This is a blank project for CDK development with TypeScript.
-
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
-
-## Useful commands
-
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+## Deploy this project.
+- Clone the project
+- Install the packages: `pnpm install`
+- Set your aws configuration
+- Deploy this project: `pnpm run deploy`
+- Check and execute the lambda function from the aws console.
+- Detroy the created stack: `pnpm run destroy`
